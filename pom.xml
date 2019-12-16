@@ -44,6 +44,7 @@
                 <configuration>
                     <goals>install</goals>
                     <tagBase>https://github.com/izaki93/sfg-pet-clinic.git/</tagBase>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
