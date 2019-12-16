@@ -1,10 +1,69 @@
+#####################
+# Project Specific
+#####################
 HELP.md
-target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
 
-### STS ###
+#####################
+# Node
+#####################
+/node/
+node_temp/
+node_modules/
+npm-debug.log.*
+
+#####################
+# Maven
+#####################
+/log/
+/target/
+
+#####################
+# Gradle
+#####################
+.gradle
+/build/
+
+#####################
+# Gradle Wrapper
+#####################
+!gradle/wrapper/gradle-wrapper.jar
+
+#####################
+# Packages Files
+#####################
+*.jar
+*.war
+*.ear
+*.db
+
+#####################
+# SASS
+#####################
+.sass-cache/
+
+#####################
+# Directories
+#####################
+/bin/
+/deploy/
+
+#####################
+# Logs
+#####################
+*.log
+
+#####################
+# Others
+#####################
+*.class
+.merge_file*
+
+#####################
+# STS
+#####################
 .apt_generated
 .classpath
 .factorypath
@@ -13,13 +72,17 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
+#####################
+# IntelliJ IDEA
+#####################
 .idea
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+#####################
+# NetBeans
+#####################
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -27,5 +90,31 @@ target/
 /.nb-gradle/
 build/
 
-### VS Code ###
+#####################
+# VS Code
+#####################
 .vscode/
+
+#####################
+# Windows
+#####################
+Thumbs.db
+
+#####################
+# Eclipse
+#####################
+*.pydevproject
+.project
+.metadata
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.sswp
+local.properties
+.loadpath
+.factorypath
+*.launch
+.cproject
+.buildpath
+.externalToolBuilders/**
