@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.springframework.study.sfgpetclinic.SfgPetClinicApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.724 s - in com.springframework.study.sfgpetclinic.SfgPetClinicApplicationTests
