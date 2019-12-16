@@ -3,18 +3,18 @@
     <parent>
         <artifactId>sfg-pet-clinic</artifactId>
         <groupId>com.springframework.study</groupId>
-        <version>0.0.2</version>
+        <version>0.0.3-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>pet-clinic-web</artifactId>
-  <version>.0.0.2</version>
+  <version>1.1-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
             <artifactId>pet-clinic-data</artifactId>
             <groupId>com.springframework.study</groupId>
-            <version>0.0.2</version>
+            <version>0.0.3-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
