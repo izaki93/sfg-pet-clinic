@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.springframework.study</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4-SNAPSHOT</version>
     <name>sfg-pet-clinic</name>
     <description>SFG Pet Clinic Project</description>
 
@@ -26,7 +26,7 @@
         <connection>scm:git:https://github.com/izaki93/sfg-pet-clinic.git/</connection>
         <developerConnection>scm:git:https://github.com/izaki93/sfg-pet-clinic.git/</developerConnection>
         <url>https://github.com/izaki93/sfg-pet-clinic.git/</url>
-      <tag>sfg-pet-clinic-0.0.3</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <build>
