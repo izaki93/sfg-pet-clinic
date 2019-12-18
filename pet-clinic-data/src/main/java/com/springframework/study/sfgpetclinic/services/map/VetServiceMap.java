@@ -4,9 +4,11 @@ package com.springframework.study.sfgpetclinic.services.map;
 import com.springframework.study.sfgpetclinic.model.Vet;
 import com.springframework.study.sfgpetclinic.services.CrudService;
 import com.springframework.study.sfgpetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
