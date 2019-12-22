@@ -22,32 +22,32 @@
         <java.version>1.8</java.version>
     </properties>
 
-    <scm>
-        <connection>scm:git:https://github.com/izaki93/sfg-pet-clinic.git/</connection>
-        <developerConnection>scm:git:https://github.com/izaki93/sfg-pet-clinic.git/</developerConnection>
-        <url>https://github.com/izaki93/sfg-pet-clinic.git/</url>
-      <tag>HEAD</tag>
-  </scm>
-
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
+               <!--<configuration>
                     <mainClass>com.springframework.study.sfgpetclinic.SfgPetClinicApplication</mainClass>
-                </configuration>
+                </configuration>-->
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
-                    <tagBase>https://github.com/izaki93/sfg-pet-clinic.git/</tagBase>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <!--<tagBase>https://github.com/izaki93/sfg-pet-clinic.git/</tagBase>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>-->
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
+    <scm>
+        <!--<connection>scm:git:https://github.com/izaki93/sfg-pet-clinic.git/</connection>-->
+        <developerConnection>scm:git:https://github.com/izaki93/sfg-pet-clinic.git/</developerConnection>
+        <!--<url>https://github.com/izaki93/sfg-pet-clinic.git/</url>
+        <tag>HEAD</tag>-->
+    </scm>
 
 </project>
