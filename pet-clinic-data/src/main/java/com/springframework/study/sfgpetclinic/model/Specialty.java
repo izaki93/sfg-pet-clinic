@@ -1,6 +1,6 @@
 package com.springframework.study.sfgpetclinic.model;
 
-public class Speciality extends BaseEntity {
+public class Specialty extends BaseEntity {
 
     private String description;
 
