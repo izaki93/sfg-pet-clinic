@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'home')}">
+<head>
+    <meta charset="UTF-8">
+    <title>Not Implemented</title>
+    <style th:inline="text">
+        .grid h3 {
+            color: #FFF;
+            display: block;
+            padding-bottom: 2.5em;
+            font-size: 1.6em;
+            padding-top: 1.5em;
+            font-weight: 600;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <figure class="figure" style="text-align: center">
+        <img src="../static/resources/images/coming.png" th:src="@{/resources/images/coming.png}" class="figure-img img-fluid rounded center" alt="We are Still Working on it.">
+        <h3 class="grid" style="font-family: 'PetitFormalScriptRegular', cursive" th:text="'We are Still Working on it.'">We are Still Working on it.</h3>
+    </figure>
+</body>
+</html>
