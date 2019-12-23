@@ -1,9 +1,11 @@
 package com.springframework.study.sfgpetclinic.services.map;
 
 import com.springframework.study.sfgpetclinic.model.BaseEntity;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
 
+@Service
 public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> {
 
     protected Map<Long, T> map = new HashMap<>();
